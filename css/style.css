@@ -206,4 +206,10 @@ main dl div {
     /* padding-left: 10px; */
     padding-bottom: 10px;
   }
+
+  main dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
