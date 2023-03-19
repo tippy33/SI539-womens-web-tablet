@@ -182,19 +182,28 @@ main dl div {
 @media screen and (min-width: 481px) {
   .container{
     display: grid;
-    /* grid-template-columns: 1fr 1fr;
-    column-gap: 10px; */
     row-gap: 30px;
   }
 
-  .history-children{
+  .history-children, .lit-children{
     display: flex;
     flex-direction: row;
     column-gap: 10px;
     align-items: flex-start;
   }
 
-  .history-children-img {
+  .history-children-img, .lit-children-img {
     width: 50%;
+  }
+
+  h3{
+    padding-top: 0;
+  }
+
+  p {
+    font-size: 100%;
+    font-family: "Sawarabi Mincho",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding-left: 10px; */
+    padding-bottom: 10px;
   }
 }
